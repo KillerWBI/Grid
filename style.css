@@ -1,0 +1,66 @@
+div{
+    margin: 0px auto;
+    max-width: 100%;
+    
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    min-height: 300px;
+}
+.background{
+    background-image: url(top.jpg);
+    width: 100%;
+    min-height: 300px;
+    max-height: 700px;
+    background-position: center center;
+    background-size: cover;
+
+}
+.gg{
+    box-shadow: 0px 30px 40px black;
+}
+.img{
+    background-image: url(sy.jpg);
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    box-shadow:inset 0px 0px 30px white;
+}
+.imf{
+    background-image: url(bo.jpg);
+    background-position:  center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow:inset 0px 0px 30px white;
+}
+.imh{
+    background-image: url(ocklok.jpg);
+    background-position:  center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow:inset 0px 0px 30px white;
+}
+button{ 
+        margin: 0 auto;
+        display: block;
+      
+}
+footer{
+    display: grid;
+    grid-template-columns:23.5% 23.5% 23.5% 23.5% ;
+    grid-template-rows: 1fr 1fr;
+    gap:25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.gr{
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%;
+}
+.gp{
+   width: 100%;
+}
