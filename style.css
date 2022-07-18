@@ -1,3 +1,16 @@
+footer{
+    display: grid;
+    grid-template-columns:49% 49% ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap:10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.galaw{
+    width: 100%;
+}
+
 div{
     margin: 0px auto;
     max-width: 100%;
@@ -49,18 +62,94 @@ button{
         display: block;
       
 }
-footer{
-    display: grid;
-    grid-template-columns:23.5% 23.5% 23.5% 23.5% ;
-    grid-template-rows: 1fr 1fr;
-    gap:25px;
-    margin-top: 25px;
-    margin-bottom: 10px;
-}
 .gr{
     display: grid;
-    grid-template-columns:25% 25% 25% 25%;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 1fr 1fr ;
 }
 .gp{
    width: 100%;
 }
+#tim{
+    font-size:15px;
+}
+
+
+@media (min-width:576px){
+    .galaw{
+        width: 90vw;
+    }
+}
+
+
+@media (min-width:768px){
+    .galaw{
+        width: 100%;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 32% 32% 32% ;
+        grid-template-rows: 1fr 1fr 1fr ;
+        gap:13px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    #tim{
+        font-size:20px;
+    }
+
+    #home{
+      font-size: 25px;
+    }
+    #men{
+        font-size: 25px;
+    }
+}
+@media (min-width:992px){
+    #tim{
+        font-size:25px;
+    }
+    .gr{
+        display: grid;
+        grid-template-columns:50% 50%;
+        grid-template-rows: 1fr 1fr ;
+    }
+}
+@media (min-width:1200px){
+    #tim{
+        font-size:29px;
+    }
+    .gr{
+        display: grid;
+        grid-template-columns:25% 25% 25% 25%;
+        grid-template-rows: 1fr ;
+    }
+    .galaw{
+        width: 70vw;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 24% 24% 24% 24%;
+        grid-template-rows: 1fr 1fr  ;
+        gap:13px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media (min-width:1400px){
+    .galaw{
+        width: 60vw;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 24% 24% 24% 24%;
+        grid-template-rows: 1fr 1fr  ;
+        gap:13px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+}
+
