@@ -79,6 +79,7 @@ button{
     .galaw{
         width: 90vw;
     }
+    
 }
 
 
@@ -89,7 +90,7 @@ button{
 
     footer{
         display: grid;
-        grid-template-columns: 32% 32% 32% ;
+        grid-template-columns: 1fr 1fr 1fr ;
         grid-template-rows: 1fr 1fr 1fr ;
         gap:13px;
         margin-top: 25px;
